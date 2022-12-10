@@ -1,11 +1,11 @@
-mod day6 {
+mod day7 {
     mod lib;
 
-    pub use lib::Day6;
+    pub use lib::Day7;
 }
 
-use day6::Day6;
+use day7::Day7;
 
 fn main() {
-    Day6::run();
+    Day7::run();
 }
